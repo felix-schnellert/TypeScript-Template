@@ -1,0 +1,17 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0-develop",
+  "description": "TypeScript Template",
+  "main": "build/main.js",
+  "scripts": {
+    "init": "npm install",
+    "build": "npx tsc -w",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "CompletableDev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
